@@ -1,4 +1,3 @@
-script -a /home/vagrant/terminal.log
 pvcreate /dev/sdc /dev/sdd
 vgcreate vg_var /dev/sdc /dev/sdd
 lvcreate -L 950M -m1 -n lv_var vg_var
